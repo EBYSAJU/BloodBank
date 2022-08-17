@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string name="text_label_1">home</string>
+    <string name="text_label_2">search</string>
+</resources>

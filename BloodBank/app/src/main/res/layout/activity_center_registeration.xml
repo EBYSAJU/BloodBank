@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/center_donar_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        />
+    <EditText
+        android:id="@+id/center_donar_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        />
+
+
+    <EditText
+        android:id="@+id/center_registration_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Center Name"
+        />
+
+    <EditText
+        android:id="@+id/center_registration_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        />
+
+    <EditText
+        android:id="@+id/center_registration_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PhoneNumber"
+        />
+
+
+    <Button
+        android:id="@+id/center_registration_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submit"
+        >
+
+    </Button>
+
+</LinearLayout>
+
+
+
+

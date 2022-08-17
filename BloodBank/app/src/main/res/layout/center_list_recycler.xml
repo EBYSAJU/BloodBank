@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="5dp"
+    android:layout_margin="6dp"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/forrecyclerview_centername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CenterName"
+            />
+        <EditText
+            android:id="@+id/forrecyclerview_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            />
+        <EditText
+            android:id="@+id/forrecyclerview_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PhoneNumber"
+            />
+        <EditText
+            android:id="@+id/forrecyclerview_center_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="centerCode"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
